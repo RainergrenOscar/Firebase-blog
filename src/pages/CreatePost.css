@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+.createPostPage {
+  width: 100%;
+  height: calc(100vh + 2rem);
+  display: grid;
+  place-items: center;
+}
+.cpContainer {
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  background-color: #2e3036;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cpContainer h1 {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.cpContainer label {
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.cpContainer .inputGp {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGp input,
+.inputGp textarea {
+  font-size: 15px;
+  border: none;
+  border-radius: 25px;
+  padding-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+  background-color: #40444b;
+}
+
+.inputGp input {
+  height: 35px;
+  outline: none;
+  color: white;
+}
+.inputGp textarea {
+  height: 150px;
+  padding-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  resize: none;
+  color: white;
+}
+
+.cpContainer button {
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 5rem;
+  margin-top: 20px;
+  transition: 0.5s all ease;
+  background-color: #82b8f5;
+  color: white;
+}
+.cpContainer button:hover {
+  transition: 0.5s all ease;
+  background-color: #4369e7;
+  color: white;
+}
+
+.cpContainer input:focus,
+textarea:focus {
+  box-shadow: 0px 0px 10px 0px rgb(54, 54, 54);
+}
+
+input,
+textarea {
+  margin-top: 5px;
+  outline: none;
+}

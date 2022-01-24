@@ -1,38 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  overflow: scroll;
+  background-color: #37393f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  margin: 0;
+  width: 100%;
+  height: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #202225;
+  text-decoration: none;
   color: white;
+  position: fixed;
+  top: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 2rem;
+  font-weight: 400;
+}
+a:hover {
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logOutButton {
+  border: none;
+  height: 25px;
+  border-radius: 10px;
+  margin: 0 2rem;
+  padding: 0 15px;
+  background: rgb(82, 82, 82);
+  color: white;
+  transition: 0.5s all ease;
+  cursor: pointer;
+}
+.logOutButton:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+  transition: 0.5s all ease;
 }
